@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Auto Detailing | Car Wash & Detailing Cape Town</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        eliteBlack: '#111827',
+                        eliteRed: '#DC2626',
+                        eliteGray: '#F3F4F6',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-eliteBlack text-white font-sans">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-eliteBlack/90 backdrop-blur-md border-b border-gray-800 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold flex items-center gap-2">
+                <i class="fa-solid fa-car text-eliteRed"></i> ELITE DETAILING
+            </a>
+            <a href="https://wa.me/27837327440?text=Hi%20Elite,%20I%20need%20a%20car%20detail" target="_blank" class="bg-eliteRed hover:bg-red-700 text-white px-5 py-2 rounded-full text-sm font-bold">
+                <i class="fa-brands fa-whatsapp mr-1"></i> Book Now
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO WITH BIG CAR IMAGE -->
+    <section class="relative min-h-screen flex items-center pt-20">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1553361371-9b22f0e71526?auto=format&fit=crop&q=80&w=1920"
+                 alt="Luxury Car Detailing"
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-eliteBlack/95 to-eliteBlack/60"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="max-w-2xl">
+                <span class="bg-eliteRed/20 text-eliteRed px-4 py-1.5 rounded-full text-xs font-bold uppercase mb-4 inline-block">
+                    <i class="fa-solid fa-star mr-1"></i> PREMIUM DETAILING
+                </span>
+                <h1 class="text-4xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                    Showroom <span class="text-eliteRed">Shine</span>. Every Time.
+                </h1>
+                <p class="text-lg mb-8 text-gray-300">
+                    Paint Correction, Ceramic Coating, Interior Deep Clean & Full Valet. We treat your car like royalty.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me/27837327440" target="_blank" class="bg-eliteRed hover:bg-red-700 text-white font-bold px-8 py-4 rounded-full shadow-xl">
+                        <i class="fa-brands fa-whatsapp mr-2"></i> WhatsApp +27 83 732 7440
+                    </a>
+                    <a href="#packages" class="bg-white/10 backdrop-blur-md border border-white/20 px-8 py-4 rounded-full font-semibold hover:bg-white/20">
+                        View Packages
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages with Images -->
+    <section id="packages" class="py-20 px-6 bg-eliteGray text-eliteBlack">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Detailing Packages</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-2xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&q=80&w=600" alt="Car Wash" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Exterior Wash</h3>
+                        <p class="text-2xl font-bold text-eliteRed mb-3">From R299</p>
+                        <ul class="text-sm space-y-2 text-gray-600">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Foam Wash & Wax</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Tyre Shine</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Window Clean</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border-4 border-eliteRed">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=600" alt="Interior Clean" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="bg-eliteRed text-white text-xs px-3 py-1 rounded-full">MOST POPULAR</span>
+                        <h3 class="font-bold text-xl mb-2 mt-2">Full Interior</h3>
+                        <p class="text-2xl font-bold text-eliteRed mb-3">From R699</p>
+                        <ul class="text-sm space-y-2 text-gray-600">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Vacuum & Shampoo</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Leather Treatment</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Dashboard Detail</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=600" alt="Ceramic Coating" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Ceramic Coating</h3>
+                        <p class="text-2xl font-bold text-eliteRed mb-3">From R2499</p>
+                        <ul class="text-sm space-y-2 text-gray-600">
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Paint Correction</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>5 Year Protection</li>
+                            <li><i class="fa-solid fa-check text-green-500 mr-2"></i>Hydrophobic Shine</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section class="py-16 px-6 text-center">
+        <h2 class="text-3xl font-bold mb-8">Why Car Owners Choose Elite</h2>
+        <div class="grid sm:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div><i class="fa-solid fa-spray-can-sparkles text-eliteRed text-3xl mb-2"></i><p class="font-bold">Premium Products</p></div>
+            <div><i class="fa-solid fa-mobile-screen text-eliteRed text-3xl mb-2"></i><p class="font-bold">Mobile Service</p></div>
+            <div><i class="fa-solid fa-shield text-eliteRed text-3xl mb-2"></i><p class="font-bold">Satisfaction Guarantee</p></div>
+            <div><i class="fa-solid fa-clock text-eliteRed text-3xl mb-2"></i><p class="font-bold">Same Day Service</p></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center bg-black text-gray-500 text-sm border-t border-gray-800">
+        &copy; 2026 Elite Auto Detailing | <a href="https://wa.me/27837327440" class="hover:text-eliteRed"><i class="fa-brands fa-whatsapp"></i> +27 83 732 7440</a>
+    </footer>
+</body>
+  </html>
